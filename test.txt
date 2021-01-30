@@ -1,0 +1,3 @@
+Hi everyone! 
+It's my first txt file in this repo.
+I do it for test github connection/
