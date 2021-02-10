@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+#!/usr/bin/env python3
+
 """
 Задание 5.1d
 
@@ -43,3 +45,9 @@ london_co = {
         "routing": True,
     },
 }
+device = input("Введите имя устройства: ").lower()
+keys = str(tuple(london_co[device].keys()))
+print("Введите интересуемый параметр из"  + keys + ":")
+parameter = input()
+print(london_co[device].get(parameter.lower(), "Неправильный параметр!"))
+
